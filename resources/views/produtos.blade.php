@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Chegamos na view!</h1>
+    <h1>Produtos</h1>
+     {{ dd($produtos) }}  <!-- {{ equivale ao echo ou ao print-r (laravel do or die)-->
 </body>
 </html>
